@@ -6,12 +6,18 @@ import Layout from "../components/layout"
 import PrimaryButton from "../components/PrimaryButton"
 import Seo from "../components/seo"
 import Hero from "../components/hero"
+import Incentives from "../components/incentives"
+import Promo from "../components/promo"
+import { MainProduct } from "../components/main-product"
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <ContentWrapper>
       <Hero />
+      <MainProduct />
+      <Promo />
+      <Incentives />
       <PrimaryButton
         text="Explore all products"
         onClick={() => navigate("products")}

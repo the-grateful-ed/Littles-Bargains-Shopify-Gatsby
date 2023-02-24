@@ -88,7 +88,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ")
 }
 
-export default function Example() {
+export default function Header() {
   return (
     <div className="bg-white">
       <header className="relative bg-white">
@@ -99,8 +99,8 @@ export default function Example() {
                 <a href="#">
                   <span className="sr-only">Little's Bargains</span>
                   <StaticImage
-                    width={170}
-                    height={100}
+                    width={280}
+                    height={150}
                     src="../images/logo.png"
                     alt="Logo"
                     className="my-4"
